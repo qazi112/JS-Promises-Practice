@@ -30,6 +30,16 @@ function userChecker(){
     })
 }
 
+// adding 3 new promises
+var p1 = new Promise((resolve)=>{
+    resolve('Sucess1')
+})
+var p2 = new Promise((resolve)=>{
+    resolve('Sucess2')
+})
+var p3 = new Promise((resolve)=>{
+    resolve('Sucess3')
+})
 window.onload = ()=>{
 
     // method 1:
@@ -42,7 +52,9 @@ window.onload = ()=>{
     
     // method 2:
     userChecker().then
-
+    Promise.all([p1,p2,p3]).then((success)=>{
+        console.log(success)
+    })
 }
 
 
