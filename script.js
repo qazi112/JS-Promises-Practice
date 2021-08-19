@@ -53,8 +53,19 @@ window.onload = ()=>{
     // method 2:
     userChecker().then
     Promise.all([p1,p2,p3]).then((success)=>{
-        console.log(success)
+        // added some dom stuff
+        let ul = document.getElementsByClassName('ul-list')[0];
+
+        for (message of success){
+
+            let li = document.createElement("li");
+            li.appendChild(document.createTextNode(message));    
+            ul.appendChild(li);
+        }
     })
+
+     
+
 }
 
 
