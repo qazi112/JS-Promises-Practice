@@ -1,3 +1,4 @@
+// Hello test comment
 var userType = true;
 // Promises JS
 
