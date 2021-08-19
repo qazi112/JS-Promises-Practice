@@ -14,7 +14,7 @@ var promise =  new Promise((resolve,reject)=>{
     }
 })
 
-// Create a promise
+
 // method 2:
 // Promise takes a function with two parameters (resolve,reject) 
 function userChecker(){
