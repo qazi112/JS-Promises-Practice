@@ -1,4 +1,3 @@
-// added line locally
 var userType = true;
 // Promises JS
 
