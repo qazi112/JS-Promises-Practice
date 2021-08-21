@@ -4,3 +4,28 @@
 .div2-inner{
     border: 2px solid blue;
 }
+
+.box{
+    border: 1px solid;
+    margin: 4px;
+    width: 100px;
+    height: 100px;
+
+    display: none;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+
+}
+.yellow{
+    background-color: yellow;
+}
+#ul-test{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
